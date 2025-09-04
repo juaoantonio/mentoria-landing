@@ -110,8 +110,8 @@ function Hero() {
                             Do básico à prática: mentoria para destravar sua programação
                         </h1>
                         <p className="mt-4 text-buff/80 leading-relaxed">
-                            Se você é como o Renato — já viu variáveis, condicionais e laços — mas não sabe transformar
-                            isso em
+                            Se você já viu variáveis, condicionais e laços — mas não sabe transformar
+                            isso em um
                             <span className="font-semibold text-buff"> projeto real</span>, eu te guio passo a passo até
                             a autonomia.
                         </p>
