@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Tailwind v4 theme tokens — palette from the brief */
+@theme {
+  /* Colors */
+  --color-buff: #d7cdc8;
+  --color-bistre: #30221e;
+  --color-night: #0e0d0f;
+  --color-beaver: #b99f93;
+  --color-night-2: #0c0c0d;
+
+  /* Optional: custom radius and shadow flavors */
+  --radius-2xl: 1.25rem;
+  --shadow-soft: 0 10px 25px rgb(0 0 0 / 0.25);
+}
+
+/* App-level primitives */
+:root {
+  color-scheme: dark;
+}
+
+.gradient-hero {
+  background-image: radial-gradient(1200px 600px at 20% -10%, rgba(202,164,145,.15), transparent 60%),
+                    radial-gradient(1200px 600px at 80% 0%, rgba(184,143,122,.12), transparent 60%),
+                    linear-gradient(180deg, #0c0c0d 0%, #0e0d0f 60%, #30221e 100%);
+}
+
+.glass {
+  backdrop-filter: blur(10px);
+  background: color-mix(in oklab, var(--color-night) 88%, white 12%);
+  border: 1px solid color-mix(in oklab, var(--color-buff) 20%, transparent);
+}
