@@ -133,7 +133,7 @@ function Hero() {
                                 "Método para aprender sem se perder",
                             ].map((item) => (
                                 <li key={item} className="flex items-start gap-2">
-                                    <CheckCircle2 className="mt-0.5 size-5 text-beaver"/>
+                                    <CheckCircle2 className="size-5 text-beaver min-w-max min-h-max"/>
                                     <span>{item}</span>
                                 </li>
                             ))}
