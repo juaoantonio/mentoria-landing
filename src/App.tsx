@@ -149,6 +149,8 @@ function Hero() {
                         <div className="glass rounded-2xl p-2 shadow-[var(--shadow-soft)]">
                             <img
                                 src="/me.jpg"
+                                loading={'lazy'}
+                                decoding={'async'}
                                 alt="Foto do mentor, João Antônio"
                                 className="w-full rounded-xl object-cover"
                             />
