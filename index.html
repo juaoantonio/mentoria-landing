@@ -1,14 +1,134 @@
 <!doctype html>
 <html lang="pt-BR" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mentoria — João Antônio</title>
-    <meta name="description" content="Mentoria prática para destravar seus estudos de programação — do básico à aplicação real." />
-    <link rel="icon" href="/favicon.svg" />
-  </head>
-  <body class="bg-night-2 text-buff">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Título e descrição -->
+    <title>Mentoria de Programação — João Antônio</title>
+    <meta
+            name="description"
+            content="Mentoria prática para destravar seus estudos de programação — do básico à aplicação real. Plano sob medida, projetos guiados e feedback para ganhar autonomia."
+    />
+    <meta name="author" content="João Antônio"/>
+
+    <!-- Canonical + hreflang -->
+    <link
+            rel="canonical"
+            href="https://mentoria.joaobarbosa.dev.br"
+    />
+    <link
+            rel="alternate"
+            href=" https://mentoria.joaobarbosa.dev.br"
+            hreflang="pt-BR"
+    />
+
+    <!-- Robots -->
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"/>
+
+    <!-- Open Graph (Facebook/WhatsApp/LinkedIn) -->
+    <meta property="og:locale" content="pt_BR"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="João Antônio — Mentoria"/>
+    <meta property="og:title" content="Mentoria de Programação — João Antônio"/>
+    <meta
+            property="og:description"
+            content="Destrave sua programação: fundamentos na prática, projetos reais e método para estudar sem se perder."
+    />
+    <meta
+            property="og:url"
+            content=" https://mentoria.joaobarbosa.dev.br"
+    />
+    <meta
+            property="og:image"
+            content=" https://mentoria.joaobarbosa.dev.br/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="João Antônio, mentor de programação, com destaque para alunos iniciantes"/>
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Mentoria de Programação — João Antônio"/>
+    <meta
+            name="twitter:description"
+            content="Fundamentos → prática → autonomia. Mentoria sob medida para quem já viu o básico e quer destravar."
+    />
+    <meta
+            name="twitter:image"
+            content=" https://mentoria.joaobarbosa.dev.br/og-image.jpg"
+    />
+
+    <!-- Cor do navegador / PWA signal -->
+    <meta name="theme-color" content="#0c0c0d"/>
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" type="image/svg+xml"/>
+<!--    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png"/>-->
+<!--    <link rel="icon" href="/favicon-192.png" sizes="192x192" type="image/png"/>-->
+<!--    <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>-->
+
+    <!-- JSON-LD: WebSite + Person + Service -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "name": "Mentoria de Programação — João Antônio",
+                    "url": " https://mentoria.joaobarbosa.dev.br",
+                    "inLanguage": "pt-BR",
+                    "publisher": {
+                        "@type": "Person",
+                        "name": "João Antônio"
+                    }
+                },
+                {
+                    "@type": "Person",
+                    "name": "João Antônio",
+                    "url": " https://mentoria.joaobarbosa.dev.br",
+                    "image": " https://mentoria.joaobarbosa.dev.br/me.jpg",
+                    "jobTitle": "Desenvolvedor Web e Mentor",
+                    "worksFor": {
+                        "@type": "Organization",
+                        "name": "João Antônio"
+                    },
+                    "sameAs": []
+                },
+                {
+                    "@type": "Service",
+                    "name": "Mentoria de Programação para Iniciantes",
+                    "provider": {
+                        "@type": "Person",
+                        "name": "João Antônio",
+                        "url": " https://mentoria.joaobarbosa.dev.br"
+                    },
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Brasil"
+                    },
+                    "audience": {
+                        "@type": "EducationalAudience",
+                        "educationalRole": "Student"
+                    },
+                    "serviceType": "Mentoria",
+                    "description": "Mentoria prática para quem já viu o básico e quer destravar: plano de estudos sob medida, projetos guiados e feedback.",
+                    "offers": {
+                        "@type": "Offer",
+                        "availability": "https://schema.org/InStock",
+                        "url": " https://mentoria.joaobarbosa.dev.br"
+                    }
+                }
+            ]
+        }
+    </script>
+</head>
+
+<body class="bg-night-2 text-buff">
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
