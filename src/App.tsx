@@ -41,7 +41,7 @@ export function Section({id, children, className = ""}: {
     return (
         <motion.section
             id={id}
-            className={`py-16 md:py-24 ${className}`}
+            className={`py-8 md:py-20 ${className}`}
             initial={{opacity: 0, y: 24}}
             whileInView={{opacity: 1, y: 0}}
             viewport={{once: true, amount: 0.35}}
