@@ -20,9 +20,18 @@
 }
 
 .gradient-hero {
-  background-image: radial-gradient(1200px 600px at 20% -10%, rgba(202,164,145,.15), transparent 60%),
-                    radial-gradient(1200px 600px at 80% 0%, rgba(184,143,122,.12), transparent 60%),
-                    linear-gradient(180deg, #0c0c0d 0%, #0e0d0f 60%, #30221e 100%);
+  background-image:
+    radial-gradient(
+      1200px 600px at 20% -10%,
+      rgba(202, 164, 145, 0.15),
+      transparent 60%
+    ),
+    radial-gradient(
+      1200px 600px at 80% 0%,
+      rgba(184, 143, 122, 0.12),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #0c0c0d 0%, #0e0d0f 60%, #30221e 100%);
 }
 
 .glass {
