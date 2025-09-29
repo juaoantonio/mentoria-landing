@@ -273,7 +273,7 @@ function Benefits() {
     {
       icon: ShieldCheck,
       title: "Confiança",
-      desc: "Feedback direto para consolidar o que aprendeu.",
+      desc: "Feedback direto para consolidar o que você aprendeu.",
     },
     {
       icon: Rocket,
